@@ -1,0 +1,24 @@
+.common_card {
+  border: none;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 70px 25px 30px;
+  .label {
+    display: inline-block;
+    background: #deffed;
+    border: 1px solid #009444;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #009444;
+    padding: 6px 10px;
+    cursor: pointer;
+    .upload_icon {
+      width: 20px;
+      margin-right: 8px;
+    }
+  }
+  .error_text {
+    color: red;
+    font-size: 12px;
+  }
+}

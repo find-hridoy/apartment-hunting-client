@@ -1,0 +1,22 @@
+.sidebar {
+  margin-left: 65px;
+  .logo {
+    margin-top: 6px;
+    margin-bottom: 50px;
+  }
+  .nav_link {
+    padding: 0;
+    display: inline-block;
+    margin-top: 20px;
+    color: #000;
+    .nav_icon {
+      margin-right: 8px;
+    }
+    &:hover {
+      color: #275a53;
+    }
+  }
+  .active_nav {
+    color: #275a53;
+  }
+}
